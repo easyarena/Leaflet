@@ -1,8 +1,8 @@
 {
-  "name": "leaflet",
-  "version": "1.9.2",
+  "name": "easy-arena-leaflet",
+  "version": "1.9.201",
   "homepage": "https://leafletjs.com/",
-  "description": "JavaScript library for mobile-friendly interactive maps",
+  "description": "JavaScript library for mobile-friendly interactive maps (based on Leaflet 1.9.2)",
   "devDependencies": {
     "@mapbox/eslint-plugin-script-tags": "^1.0.0",
     "@rollup/plugin-json": "^6.0.0",

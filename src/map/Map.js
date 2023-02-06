@@ -997,7 +997,7 @@ export const Map = Evented.extend({
 	// Given a geographical coordinate, returns the corresponding pixel coordinate
 	// relative to the [origin pixel](#map-getpixelorigin).
 	latLngToLayerPoint(latlng) {
-		const projectedPoint = this.project(toLatLng(latlng))._round();
+		const projectedPoint = this.project(toLatLng(latlng)); // ea-change: removed rounding
 		return projectedPoint._subtract(this.getPixelOrigin());
 	},
 

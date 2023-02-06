@@ -1,3 +1,13 @@
+# EasyArena Leaflet
+This is a fork of leaflet which only changes small parts to the requirements of the easy arena ticketing software.
+
+#### Differences to original library
+* Coordinates in DomUtil.setTransform are being rounded to the nearest integer using Math.round() (in dom/DomUtil.js)
+* Do not round coordinates in Map.latLngToLayerPoint (in map/Map.js)
+
+# Original Documentation
+
+
 Leaflet was created 11 years ago by [Volodymyr Agafonkin](https://agafonkin.com), a Ukrainian citizen living in Kyiv.
 
 Russian bombs are now falling over Volodymyr's hometown. His family, his friends, his neighbours, thousands and thousands of absolutely wonderful people, are either seeking refuge or fighting for their lives.

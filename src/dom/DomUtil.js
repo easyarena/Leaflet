@@ -54,7 +54,8 @@ export function toBack(el) {
 // and optionally scaled by `scale`. Does not have an effect if the
 // browser doesn't support 3D CSS transforms.
 export function setTransform(el, offset, scale) {
-	const pos = offset || new Point(0, 0);
+	let pos = offset || new Point(0, 0);
+	pos = new Point(Math.round(pos.x), Math.round(pos.y)); // ea-change: added Rounding of coordinates
 
 	el.style.transform = `translate3d(${pos.x}px,${pos.y}px,0)${scale ? ` scale(${scale})` : ''}`;
 }
