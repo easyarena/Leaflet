@@ -1,6 +1,6 @@
 {
   "name": "easy-arena-leaflet",
-  "version": "1.9.201",
+  "version": "1.9.201-alpha.1",
   "homepage": "https://leafletjs.com/",
   "description": "JavaScript library for mobile-friendly interactive maps (based on Leaflet 1.9.2)",
   "devDependencies": {

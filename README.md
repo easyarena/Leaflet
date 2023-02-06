@@ -4,6 +4,7 @@ This is a fork of leaflet which only changes small parts to the requirements of 
 #### Differences to original library
 * Coordinates in DomUtil.setTransform are being rounded to the nearest integer using Math.round() (in dom/DomUtil.js)
 * Do not round coordinates in Map.latLngToLayerPoint (in map/Map.js)
+* Improved pre-drag-limit (in map/handler/Map.Drag.js)
 
 # Original Documentation
 
